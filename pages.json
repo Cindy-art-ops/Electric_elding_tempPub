@@ -1,0 +1,89 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "主页",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/course/detail",
+      "style": {
+        "navigationBarTitleText": "课程详情"
+      }
+    },
+    {
+      "path": "pages/learn/material",
+      "style": {
+        "navigationBarTitleText": "学习资料"
+      }
+    },
+    {
+      "path": "pages/quiz/chapter",
+      "style": {
+        "navigationBarTitleText": "章节自测"
+      }
+    },
+    {
+      "path": "pages/quiz/import",
+      "style": {
+        "navigationBarTitleText": "题库导入"
+      }
+    },
+    {
+      "path": "pages/mistakes/index",
+      "style": {
+        "navigationBarTitleText": "错题集"
+      }
+    },
+    {
+      "path": "pages/notes/index",
+      "style": {
+        "navigationBarTitleText": "学习心得"
+      }
+    },
+    {
+      "path": "pages/practice/index",
+      "style": {
+        "navigationBarTitleText": "练习记录"
+      }
+    },
+    {
+      "path": "pages/settings/index",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "电弧焊接学习",
+    "navigationBarBackgroundColor": "#d32f2f",
+    "backgroundColor": "#f7f7f7"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#d32f2f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "uniIdRouter": {}
+}

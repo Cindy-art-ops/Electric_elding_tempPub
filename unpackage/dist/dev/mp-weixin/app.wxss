@@ -1,0 +1,103 @@
+
+/* 全局样式（Apple风格基线） */
+page {
+  background-color: #f2f2f7;
+}
+
+/* 统一圆角/阴影/分割线 */
+:root {
+  --radius-sm: 10rpx;
+  --radius-md: 16rpx;
+  --radius-lg: 22rpx;
+  --shadow-soft: 0 6rpx 20rpx rgba(0, 0, 0, 0.06);
+  --line: 1rpx solid #e9e9ec;
+  --primary: #d32f2f; /* 维持项目主色为红 */
+}
+
+/* 卡片 */
+.ios-card {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  border: var(--line);
+  box-shadow: var(--shadow-soft);
+}
+
+/* 分组列表（Group） */
+.ios-group {
+  margin: 12rpx 0;
+}
+.ios-cell {
+  background: #fff;
+  border-bottom: var(--line);
+  padding: 26rpx 28rpx;
+}
+.ios-cell:first-child {
+  border-top-left-radius: var(--radius-lg);
+  border-top-right-radius: var(--radius-lg);
+}
+.ios-cell:last-child {
+  border-bottom-left-radius: var(--radius-lg);
+  border-bottom-right-radius: var(--radius-lg);
+  border-bottom: none;
+}
+.ios-cell .chevron {
+  color: #8e8e93;
+}
+
+/* 大标题 */
+.ios-large-title {
+  font-size: 44rpx;
+  font-weight: 700;
+  color: #111;
+  margin: 8rpx 0 20rpx;
+}
+.ios-subtle {
+  color: #6d6d72;
+}
+
+/* 按钮（胶囊样式） */
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+  border-radius: 999rpx;
+  padding: 10rpx 20rpx;
+}
+.btn-outline {
+  color: var(--primary);
+  border: 2rpx solid var(--primary);
+  background: #fff;
+  border-radius: 999rpx;
+  padding: 8rpx 18rpx;
+}
+
+/* 暗色模式覆盖（H5 通过 html[data-theme=dark] 触发） */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+page{--status-bar-height:25px;--top-window-height:0px;--window-top:0px;--window-bottom:0px;--window-left:0px;--window-right:0px;--window-magin:0px}[data-c-h="true"]{display: none !important;}

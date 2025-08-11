@@ -1,0 +1,72 @@
+
+.page {
+  padding: 24rpx;
+}
+.title {
+  font-size: 32rpx;
+  font-weight: 600;
+  margin-bottom: 16rpx;
+}
+.card {
+  margin-top: 16rpx;
+  background: #fff;
+  padding: 20rpx;
+  border-radius: 12rpx;
+}
+.hr {
+  height: 1rpx;
+  background: #f0f0f0;
+  margin: 16rpx 0;
+}
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+.opt-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8rpx;
+}
+.muted {
+  color: #6d6d72;
+}
+.q {
+  margin-top: 8rpx;
+}
+.quiz-title {
+  font-weight: 600;
+  margin-bottom: 8rpx;
+}
+.quiz-item {
+  padding: 12rpx 0;
+  border-top: 1rpx solid #f3f3f3;
+}
+.quiz-q {
+  margin-bottom: 8rpx;
+}
+.blank-input {
+  flex: 1;
+  background: #fafafa;
+  border-radius: 8rpx;
+  padding: 8rpx 12rpx;
+  margin-left: 8rpx;
+}
+.verdict {
+  margin-top: 6rpx;
+  font-size: 26rpx;
+}
+.verdict.ok {
+  color: #2e7d32;
+}
+.verdict.bad {
+  color: #c62828;
+}
+.swiper {
+  height: 520rpx;
+}

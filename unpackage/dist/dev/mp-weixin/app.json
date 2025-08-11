@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/mine/index",
+    "pages/course/detail",
+    "pages/learn/material",
+    "pages/quiz/chapter",
+    "pages/quiz/import",
+    "pages/mistakes/index",
+    "pages/notes/index",
+    "pages/practice/index",
+    "pages/settings/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "电弧焊接学习",
+    "navigationBarBackgroundColor": "#d32f2f",
+    "backgroundColor": "#f7f7f7"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#d32f2f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

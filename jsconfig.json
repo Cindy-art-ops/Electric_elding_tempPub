@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "baseUrl": "."
+  },
+  "exclude": ["node_modules", "unpackage"],
+  "vueCompilerOptions": {
+    "globalTypesPath": "./typings/global.d.ts"
+  }
+}

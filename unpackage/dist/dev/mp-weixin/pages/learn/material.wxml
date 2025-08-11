@@ -1,0 +1,1 @@
+<view class="page"><view class="title">学习资料</view><text>当前章节：{{a}}</text><view class="card"><text>这里展示章节资料列表（文档、图片、视频等）</text></view></view>

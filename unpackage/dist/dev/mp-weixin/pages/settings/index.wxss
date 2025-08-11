@@ -1,0 +1,13 @@
+
+.page {
+  padding: 24rpx;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.note {
+  padding: 20rpx;
+  margin-top: 12rpx;
+}

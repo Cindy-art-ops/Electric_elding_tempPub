@@ -1,0 +1,1 @@
+<view class="page"><view class="title">我的练习记录</view><view wx:for="{{a}}" wx:for-item="i" wx:key="c" class="card">2025-08-0{{i.a}} · 示例记录 {{i.b}}</view><button class="btn-primary" bindtap="{{b}}">同步</button></view>
