@@ -1,0 +1,9 @@
+﻿fastapi
+uvicorn[standard]
+sqlmodel
+pydantic
+python-dotenv
+passlib[bcrypt]
+PyJWT
+alembic
+psycopg[binary]python-multipart
